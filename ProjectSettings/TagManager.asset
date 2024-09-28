@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FirstArrow
+  - SecondArrow
+  - InGameCollectable
+  - Watch
+  - SandWatch
+  - Dynamite
+  - Shield
+  - Coin
+  - SingleArrow
+  - DoubleArrow
+  - SingleStickyArrow
+  - DoubleStickyArrow
+  - UnbreakableBrickBottom
+  - UnbreakableBrickTop
+  - UnbreakableBrickLeft
+  - UnbreakableBrickRight
+  - UnbreakableBrickTopVertical
+  - UnbreakableBrickBottomVertical
+  - UnbreakableBrickLeftVertical
+  - UnbreakableBrickRightVertical
+  - BrokenBrickTop
+  - BrokenBrickBottom
+  - BrokenBrickLeft
+  - BrokenBrickRight
+  - LargestBall
+  - LargeBall
+  - MediumBall
+  - SmallBall
+  - SmallestBall
+  - GoldBall
+  - TopBrick
+  - BottomBrick
+  - LeftBrick
+  - RightBrick
+  - MoveLeftButton
+  - MoveRightButton
+  - ShootButton
+  - FirstStickyArrow
+  - SecondStickyArrow
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Arrow
+  - CollectableItem
+  - GameBGBrick
+  - Ball
+  - GameplayBrick
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: GamePlay Canvas
+    uniqueID: 172375597
+    locked: 0
+  - name: BG Bricks
+    uniqueID: 3487527009
+    locked: 0
+  - name: ArrowsAndBalls
+    uniqueID: 1789857125
+    locked: 0
+  - name: Player
+    uniqueID: 3270857947
+    locked: 0
+  - name: PauseMenu
+    uniqueID: 567610153
+    locked: 0

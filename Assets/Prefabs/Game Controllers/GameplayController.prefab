@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &545664934950753367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 545664934950753369}
+  - component: {fileID: 545664934950753366}
+  m_Layer: 0
+  m_Name: GameplayController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &545664934950753369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545664934950753367}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &545664934950753366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545664934950753367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd84306ab841e5042b8a9fb72b87ac39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topAndBottomBricks:
+  - {fileID: 3177681916608631145, guid: 18f01c70ac1081846a5ef75fc4d7a25a, type: 3}
+  - {fileID: 7703858216364947789, guid: 334dcc011b71ee347ab30ef35c267135, type: 3}
+  - {fileID: 4953049619424220020, guid: 38008883900db264e9fab1a00cd9d72f, type: 3}
+  leftBricks:
+  - {fileID: 962021325094479087, guid: 518b5618500f23b4c8b36871cbe3b301, type: 3}
+  - {fileID: 6851472433104623257, guid: 88c2b96e11bc11d4692a914440ac49d0, type: 3}
+  - {fileID: 443182755423813889, guid: a8bd9c4d836ca794d9a18c7922b79039, type: 3}
+  rightBricks:
+  - {fileID: 3155325685545097410, guid: 28989989d8826f84babec12975901909, type: 3}
+  - {fileID: 5341095883389243997, guid: aef3284f62eed94429f8ac579a5b517b, type: 3}
+  - {fileID: 4502090169562168587, guid: 1efbda6aa8f0a6246b582fedfe5270a2, type: 3}
+  players:
+  - {fileID: 7583017485241363094, guid: 4c71f6ef240074141a887900ebcfed7a, type: 3}
+  - {fileID: 8390343561342977061, guid: 2955bcbf78117d847a13e674b3c57058, type: 3}
+  - {fileID: 7059242830458247430, guid: 177b1edf1559f21409ff535917f3300c, type: 3}
+  - {fileID: 277611286536633311, guid: 653179db81a7deb4eb939083854f8a67, type: 3}
+  - {fileID: 1430117616541624350, guid: 309d3402251fa854e9e7a1c85e26b22d, type: 3}
+  - {fileID: 6972708511213897774, guid: 79de814cd3000a348ba43056e29ae5e7, type: 3}
+  endOfLevelRewards:
+  - {fileID: 8691597158347605369, guid: 7d197a2eaeab28f4a8cfd39103f41c79, type: 3}
+  - {fileID: 2086690159584629486, guid: 7cc4cb32463d6c04089953590ba448b8, type: 3}
+  - {fileID: 5731240121558738661, guid: 1c3139fd3a0be3a4ea882279f5c570ec, type: 3}
+  - {fileID: 508274600429070190, guid: 93a129fd0010ca3478f02b130a30f287, type: 3}
+  - {fileID: 3823215172008388246, guid: 7d54c932d34a5cf42844480567ccd234, type: 3}
+  - {fileID: 6390851933103166291, guid: 3245215711a07b14cbd66b3823c3f2ff, type: 3}
+  - {fileID: 3640363095159983597, guid: 367810e1f14a7f9438eee05644d3662d, type: 3}
+  - {fileID: 2863779693713941171, guid: cf7bfb8efaf33084faeb737798a74ef5, type: 3}
+  - {fileID: 4010087197091032923, guid: 77e36fc1bf8f41d46834e71e8da62358, type: 3}
+  - {fileID: 6545351029668164079, guid: 8cf467b8cd51cdc408b94d85ed06888e, type: 3}
+  - {fileID: 3530617883357272947, guid: 206060603824a8b4aa5ffb79afbb58e4, type: 3}
+  - {fileID: 4741537347536458737, guid: 555db68b2f751a44394c6f0812be67b6, type: 3}
+  - {fileID: 2967244006309648384, guid: 4f50b69517897c148adf9881dd7be268, type: 3}
+  - {fileID: 5335346687203629398, guid: 44b429ee4c7d01d45a89d9f637bd1a2d, type: 3}
+  - {fileID: 4490894244791252894, guid: cb5a6d92f8bdbb5429790067028cd50f, type: 3}
+  - {fileID: 2382371122908215508, guid: cfad4d74a98819047b169fddf1ad453e, type: 3}
+  - {fileID: 8028222726139630861, guid: eb7937e87fc18f54c8a4d9ef2215ce7e, type: 3}
+  - {fileID: 2396434472397873808, guid: a5be9ba67bcd49444a284b09f5fa4f5b, type: 3}
+  - {fileID: 1727334340783164681, guid: e1b5ffacbecfe6c47a799068ef4e5196, type: 3}
+  - {fileID: 3817914397379650836, guid: cf839d83ae834ea4987e5fd0632e9404, type: 3}
+  - {fileID: 4306791755487594846, guid: 91800934e9438da4b898d288216a8ed7, type: 3}
+  - {fileID: 430777021947437585, guid: de6e47876467dcd4cbfe2226266fda99, type: 3}
+  - {fileID: 2306923361547370289, guid: b3d36582539997147a8892a2b792f96a, type: 3}
+  - {fileID: 8217991650795140052, guid: 8117124ff169c2f4ab292e8d878faa8b, type: 3}
+  - {fileID: 4129089156682326653, guid: c4eef3dd694bb734588e69d5e7b9566a, type: 3}
+  - {fileID: 5239627887592444263, guid: d687f337e4646bb4db607eb09a070f5b, type: 3}
+  - {fileID: 3567056771138676261, guid: a6502c41868603f4db983a7a1c318273, type: 3}
+  - {fileID: 3584849341706182439, guid: 46d8624d9d030984f9240f120d710b0e, type: 3}
+  - {fileID: 2868831667885898971, guid: 84259e025b6c2d342a7794deae537451, type: 3}
+  - {fileID: 1093772000272083363, guid: 40d362e9e5d1c01458ac37a089f9a121, type: 3}
+  - {fileID: 1209371649878911352, guid: f50979e7b49eb294c80b26daf17fda10, type: 3}
+  - {fileID: 830218939678412296, guid: 4e3694299d9eed7488347ae00058c0f8, type: 3}
+  - {fileID: 8217991650795140052, guid: 8117124ff169c2f4ab292e8d878faa8b, type: 3}
+  - {fileID: 4306791755487594846, guid: 91800934e9438da4b898d288216a8ed7, type: 3}
+  - {fileID: 3584849341706182439, guid: 46d8624d9d030984f9240f120d710b0e, type: 3}
+  - {fileID: 830218939678412296, guid: 4e3694299d9eed7488347ae00058c0f8, type: 3}
+  - {fileID: 2863779693713941171, guid: cf7bfb8efaf33084faeb737798a74ef5, type: 3}
+  - {fileID: 4741537347536458737, guid: 555db68b2f751a44394c6f0812be67b6, type: 3}
+  - {fileID: 508274600429070190, guid: 93a129fd0010ca3478f02b130a30f287, type: 3}
+  - {fileID: 5731240121558738661, guid: 1c3139fd3a0be3a4ea882279f5c570ec, type: 3}
+  pauseBtn: {fileID: 0}
+  panelBG: {fileID: 0}
+  levelFinishedPanel: {fileID: 0}
+  playerDiedPanel: {fileID: 0}
+  pausePanel: {fileID: 0}
+  levelTime: 90
+  liveText: {fileID: 0}
+  scoreText: {fileID: 0}
+  levelTimerText: {fileID: 0}
+  showScoreAtTheEndOfLevelText: {fileID: 0}
+  countDownAndBeginLevelText: {fileID: 0}
+  watchVideoText: {fileID: 0}
+  playerLives: 0
+  playerScore: 0
+  coins: 0
+  levelInProgress: 0
